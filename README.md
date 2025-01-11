@@ -23,6 +23,10 @@ This project was tested with the **ESP32-C3 Super-Mini**. You can purchase it fr
   - tableName: The name of the table you want to listen to.
   - record["isWaterHeat"], payload: The specific column you want to monitor for changes.
 - **Error handling in this code is minimal** and may not cover all edge cases. You might need to implement additional error handling mechanisms for production use.
+  
+- **Supabase Table Settings**:
+  - Make sure that **Row Level Security (RLS)** is **disabled** in the Supabase Table Editor for the table you are using.
+  - Enable **Realtime** for the table by turning on the Realtime feature in the Table Editor.
 
 ---
 
@@ -60,6 +64,32 @@ Update the following placeholders in the code:
   - Parsing errors for unexpected payload structures.
 
   You are encouraged to review and enhance the error-handling logic based on your specific requirements.
+
+---
+
+## 🖼️ Example Photos
+
+### 1. ESP32-C3 Super-Mini
+Here is the ESP32-C3 Super-Mini used in this project:
+
+![ESP32-C3 Super-Mini](images/esp32_c3_super_mini.jpg)
+
+---
+
+### 2. Serial Output Example
+This is an example of the serial output you can expect:
+
+![Serial Output](images/serial_monitor.jpg)
+
+---
+
+### 3. Supabase table editor
+check RLS disabled and realtime on
+
+![Wiring Diagram](images/supabase_table_editor.JPG)
+
+---
+
 
 ---
 
