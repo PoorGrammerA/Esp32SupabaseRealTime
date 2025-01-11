@@ -72,7 +72,9 @@ Update the following placeholders in the code:
 ### 1. ESP32-C3 Super-Mini
 Here is the ESP32-C3 Super-Mini used in this project:
 
-![ESP32-C3 Super-Mini](images/esp32_c3_super_mini.jpg)
+![ESP32-C3 Super-Mini](images/esp32_c3_super_mini_1.jpg)
+![ESP32-C3 Super-Mini](images/esp32_c3_super_mini_2.jpg)
+![ESP32-C3 Super-Mini](images/esp32_c3_super_mini_3.jpg)
 
 ---
 
